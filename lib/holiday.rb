@@ -50,7 +50,9 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.map do |key, value|
     value.map do |key2, value2|
       value2.flatten
-
+    end
+  end
+end
 end
 
 def all_supplies_in_holidays(holiday_hash)
