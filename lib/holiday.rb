@@ -50,7 +50,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.map do |key, value|
     value.map do |key2, value2|
       if key2 == :christmas && key2 == :new_years
-        puts value2
+        value2
     end
   end
 end
