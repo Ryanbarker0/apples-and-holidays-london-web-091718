@@ -52,7 +52,6 @@ def all_winter_holiday_supplies(holiday_hash)
       if key2 == :christmas && key2 == :new_years
         puts value2
     end
-    holiday_hash
   end
 end
 end
