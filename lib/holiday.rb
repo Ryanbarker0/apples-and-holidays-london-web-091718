@@ -50,6 +50,7 @@ def all_winter_holiday_supplies(holiday_hash)
   supplies = ""
   holiday_hash.map do |key, value|
     value.map do |key2, value2|
+      value2.map do |key3, value3|
       if key2 == :christmas && key2 == :new_years
         supplies = value2
     end
