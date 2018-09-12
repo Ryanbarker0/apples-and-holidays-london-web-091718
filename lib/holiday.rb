@@ -48,9 +48,8 @@ end
 def easy(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
   holiday_hash[:winter].map do |key, value|
-    value
+    value.flatten
   end
-  value.flatten
 end
 
 
