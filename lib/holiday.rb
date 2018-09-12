@@ -54,8 +54,7 @@ def all_winter_holiday_supplies(holiday_hash)
         puts "#{supply}"
   end
   end
-  supplies
-end
+  
 end
 end
 
