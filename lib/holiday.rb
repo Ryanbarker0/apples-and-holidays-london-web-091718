@@ -52,10 +52,10 @@ def all_winter_holiday_supplies(holiday_hash)
       if key2 == :christmas && key2 == :new_years
         value2.each do |supply|
         puts "#{supply}"
+      end
+    end
   end
   end
-  
-end
 end
 
 
